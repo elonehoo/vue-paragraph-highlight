@@ -1,3 +1,3 @@
-import TextHighlight from './src/index.vue'
+import VueWordHighlighter from './src'
 
-export default TextHighlight;
+export default VueWordHighlighter

@@ -5,8 +5,6 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Footer: typeof import('./src/components/Footer.vue')['default']
-    Highlight: typeof import('./src/components/highlight/src/index.vue')['default']
-    Src: typeof import('./src/components/highlight/src/index.vue')['default']
   }
 }
 
