@@ -1,3 +1,3 @@
-import VueWordHighlighter from './src'
+import paragraphHighlight from './src'
 
-export default VueWordHighlighter
+export default paragraphHighlight

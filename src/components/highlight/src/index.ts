@@ -4,7 +4,7 @@ import { createHighlightWordChunk } from "~/components/highlight/util/createHigh
 import { extractMatchesStrings } from "~/components/highlight/util/extractMatchesStrings";
 
 export default defineComponent({
-  name: "VueWordHighlighter",
+  name: "paragraphHighlight",
   props: {
     query: {
       type: [String, Object as () => RegExp],
